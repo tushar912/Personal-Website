@@ -1,0 +1,140 @@
+body{
+    background:rgb(147, 177, 189);
+
+   
+}
+.container{
+    width:85%;
+    border: 0px black;
+    height:2000px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 100%;   
+    border-radius: 50px;
+    
+}
+div.header{
+    height:750px;
+    background-image:url("img.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px 0px 0px;
+    margin-bottom: 0px;
+    
+       
+}
+div.t-bg{
+    height: 100%;
+   
+    background: rgba(0,0,0,0.5);
+    border-radius: 50px 50px 0px 0px;
+    margin-bottom: 0px;
+}
+
+div.header h1{
+    margin-top: 0%;
+    position: relative;
+    top: 200px;
+    font-size: 450%;
+    left: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color:white;
+       
+    }
+.menu{
+    height: 100px;
+    background:rgb(87, 117, 128);
+    margin-top: 0;
+    border-radius: 0px 0px 20px 20px;
+    
+}
+.menu ul{
+    list-style: none;
+    margin-top: 0px;
+    padding: 20px 20% 20px 30%;
+}
+.menu ul li{
+    border-right: white solid 2px;
+    padding-right: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    
+    transition: font-size 0.2s ease-in ;
+}
+.menu ul li a:hover{
+    font-size: 35px ;
+    color: blue;
+}
+.r1{
+    border: 1px;
+    border-style: solid;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius:50px ;
+    background-color: rgb(87, 117, 128);
+}
+.r1 h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-right: 30%;
+    margin-left: 40%;
+    margin-bottom: 50px;
+    font-size: 45px;
+    
+}
+.r1 p{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color:bisque;
+}
+.r2{
+    border: 1px;
+    border-style: solid;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius:50px ;
+    background-color: rgb(87, 117, 128);
+    height:1300px;
+}
+.r2 h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-right: 30%;
+    margin-left: 40%;
+    margin-bottom: 50px;
+    font-size: 45px;
+    
+}
+.l{
+    float:right;
+}
+.l li{
+    margin-right: 150px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color:bisque;
+    margin-bottom: 200px;
+}
+.b{
+    float: left;
+    list-style: none;
+    margin-left: 300px;
+}
+.b img{
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
