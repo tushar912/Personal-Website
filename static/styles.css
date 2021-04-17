@@ -1,0 +1,83 @@
+body{
+  padding-top:0px !important;
+  margin-top: 0px !important;
+}
+.nav{
+  position: fixed;
+  top: 0%;
+  width: 100% !important;
+  padding-bottom: 0% !important;
+  font-size: 1.2em !important;
+  
+}
+
+.nav .brand{
+  margin-right: 20% !important;
+  width: 50% !important;
+  margin-left: 1em !important;
+  text-align: left !important;
+  font-size: 1.2em !important;
+}
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+.reg{
+  /* background-color: transparent !important; */
+  transition: background-color 2s ease-in-out !important ;
+  -moz-transition: background-color 2s ease-in-out !important ;
+  -webkit-transition: background-color 2s ease-in-out !important ;
+  color: black !important;
+}
+.reg :hover,:active{
+  background-color: #253898 !important;
+  color: white !important;
+}
+.navbar{
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.scrolled{
+  background-color: rgba(220,220,220, 0.5) !important;
+  
+}
+.contaner{
+  margin-top: 0% !important;
+}
+.header{
+  padding-top: 0% !important;
+  margin-top: 0px !important;
+  background: linear-gradient(to right,#be93c5, #7bc6cc);
+}
+.main{
+  position: relative;
+  left: 20%;
+  top: 20%;
+  font-size: 7em;
+}
+.hi{
+  width: 1.2em !important;
+}
+.t{
+  width: 100%;
+}
+.sub{
+  position: relative;
+  top: 30%;
+  left: 38%;
+  font-size: 3em;
+}
+.heading{
+  margin-top: 1em;
+  width: 100%;
+  text-align: center;
+}
+.content{
+  font-size: 1.5em;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
